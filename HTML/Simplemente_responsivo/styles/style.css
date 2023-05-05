@@ -1,0 +1,81 @@
+* {
+    outline: dashed 1px yellow;
+    margin: 0px;
+}
+
+h1 {
+    background-color: grey;
+    color: black;
+}
+
+p {
+    background-color: lightgrey;
+    color: black;
+}
+
+div {
+    background-color: lightyellow;
+    color: black;
+}
+
+span {
+    font-weight: bold;
+}
+
+.phone_only {
+    display: none;
+    background-color: yellow;
+}
+
+.tablet_only {
+    display: none;
+    background-color: yellow;
+}
+
+.desktop_only {
+    display: none;
+    background-color: yellow;
+}
+
+
+@media screen and (max-width: 480px) {
+    .phone_only {
+        display: inline;
+    }
+
+    .tablet_only {
+        display: none;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    .tablet_only {
+        display: inline;
+    }
+
+    .phone_only {
+        display: none;
+    }
+
+    .desktop_only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .desktop_only {
+        display: inline;
+    }
+
+    .phone_only {
+        display: none;
+    }
+
+    .tablet_only {
+        display: none;
+    }
+}

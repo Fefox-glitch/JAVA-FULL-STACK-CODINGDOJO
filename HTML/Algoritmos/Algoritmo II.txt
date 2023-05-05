@@ -1,0 +1,108 @@
+Algorithm II - Fernando Troncoso 
+
+1. function multiply(x,y) 
+2
+3
+2
+3
+
+2. function multiply(x, y) 
+a. multiply(2, 3);
+retorna valor de 6
+b.
+12
+
+3. var x = [1, 2, 3, 4, 5, 10]; 
+3
+7
+
+4. x=15; 
+15
+15
+10
+10
+
+5. for(var i=0; i< 15; i+=2) 
+0
+2
+4
+6
+8
+10
+12
+14
+
+6. for(var i=0; i < 3; i++) 
+0
+0
+0
+1
+0
+2
+
+7. function looping(x, y) 
+0
+0
+0
+0
+1
+2
+0
+2
+4
+
+8. function looping(x, y) 
+0
+0
+0
+0
+0
+0
+1
+2
+3
+4
+0
+2
+4
+6
+8
+15
+-------------------------
+1. Print 1 to x
+
+function printUpTo(x){
+    if (x < 0) {
+        return false;
+    }
+    for (var i = 1; i < (x + 1); i++)
+        console.log(i);
+  }
+  printUpTo(1000000); // 1 to 1000000
+  y = printUpTo(-10); // false
+  console.log(y); // false
+
+  2. PrintSum
+
+  function printSum(x){
+    sum = 0;
+
+    for (var i = 0; i < (x + 1); i++) {
+        console.log(i);
+        sum += i;
+        console.log(sum);
+    }
+    return sum
+  }
+  y = printSum(255) // 0 a 255
+  console.log(y) // 32385
+
+3. PrintSumArray
+function printSumArray(x){
+    sum = 0;
+    for(var i=0; i<x.length; i++) {
+      sum +=x[i];
+    }
+    return sum;
+  }
+  console.log( printSumArray([1,2,3]) ); // 6

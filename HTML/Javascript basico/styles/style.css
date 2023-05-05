@@ -1,0 +1,94 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: aqua;
+    display: inline;
+}
+h1{
+    color: aliceblue;
+}
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+p{
+    display: inline;
+    margin-left: 15px;
+}
+ul{
+    padding-left: 30px;
+}
+li{
+    color: white;
+}
+#punto{
+list-style: none;
+padding-top: 10px;
+}
+
+
+#wrapper {
+    width: 950px;
+    background-color: #1b335d;
+    margin: 0px auto;
+    padding: 5px;
+    
+}
+/*Estilo de */
+#header {
+    min-height: 50px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/*Estilos Navegador*/
+#navigation {
+    min-height: 230px;
+    width: 200px;
+    background-color: #2a7d8c;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+    margin: 10px 11px 10px 5px;
+}
+/*Estilos Contenedor Principal*/
+#main_content {
+    min-height: 400px;
+    width: 700px;
+    background-color: #0e1822;
+    display: inline-block;
+    padding: 10px 25px 20px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+/*Estilos Sub Contenedor*/
+.subcontents {
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+/*Estilo de pie*/
+#advertisement {
+    min-height: 50px;
+    width: 900px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+footer{
+    margin-left: 1px;
+    margin-right: auto;
+    padding-top: 15px;
+}

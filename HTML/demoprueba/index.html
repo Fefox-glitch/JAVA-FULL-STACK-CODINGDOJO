@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yourwebsitetitle.com</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- AQUI ENCABEZADO -->
+    <header>
+      <h1 onclick="remover(this)">Yourwebsitetitle</h1>
+      <img onclick="saludo()" src="./static/img/logo.png" alt="imagen_nav" />
+    </header>
+    <!-- barra de navegacion -->
+    <nav>
+      <a href="" class="nav-link"> Mainsite</a>
+      <a href="" class="nav-link"> Services</a>
+      <a href="" class="nav-link">Gallery</a>
+      <a href="" class="nav-link">Resources</a>
+      <a href="" class="nav-link">Help &amp; Support</a>
+      <a href="" class="nav-link"> COntact</a>
+    </nav>
+
+    <img class="banner" src="./static/img/banner_img.png" alt="imagen_nav" />
+    <!-- main content -->
+    <main>
+      <div class="container">
+        <!-- aside IZQUIERDO -->
+        <aside>
+          <!-- formulario busqueda -->
+          <form action="/enviarform" method="post">
+            <label for="search"> Search Our Site</label>
+            <div class="search-site">
+              <input type="text" id="search" />
+              <img
+              onclick="cambiarColor('p')"
+                class="btn"
+                src="./static/img/search_icon.png"
+                alt="button"
+              />
+            </div>
+          </form>
+
+          <!-- notes area 1 -->
+          <section class="aside-content">
+            <div class="card-header">
+              <h4>Notes Area</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                dolores maxime, reprehenderit nihil vitae est similique
+                recusandae necessitatibus voluptate delectus dolorum, alias in
+                at ullam, perspiciatis impedit fugit molestias cum?
+              </p>
+              <a href="#">Sample link...</a>
+            </div>
+          </section>
+          <!-- either vertical ... -->
+          <div class="scroll-content">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
+              debitis maiores quibusdam molestias ex necessitatibus neque quos
+              fugit velit nam laudantium corporis doloremque perspiciatis. Hic
+              vel numquam eum voluptate unde.
+            </p>
+          </div>
+          <img class="aside-img" src="./static/img/content_img1.png" alt="" />
+          <section class="aside-content">
+            <div class="card-header">
+              <h4>Notes Area</h4>
+            </div>
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+                dolores maxime, reprehenderit nihil vitae est similique
+                recusandae necessitatibus voluptate delectus dolorum, alias in
+                at ullam, perspiciatis impedit fugit molestias cum?
+              </p>
+              <a href="#">Sample link...</a>
+            </div>
+          </section>
+        </aside>
+
+        <!-- aqui parrafos -->
+        <div class="content">
+          <div class="col-1">
+            <article>
+              <h2>Allwebco Template</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                deleniti perferendis <a href="#"> graphic logo</a> cum, magni
+                accusantium deserunt possimus? Eligendi quas aspernatur illum
+                excepturi iste earum aliquid placeat, magni unde rem eveniet
+                molestias. <a href="#">View this page with graphic logo</a>
+              </p>
+            </article>
+
+            <div class="division"></div>
+            <article>
+              <h2>Colors and Formatting</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                deleniti perferendis cum, magni accusantium deserunt possimus?
+                Eligendi quas aspernatur illum excepturi iste earum aliquid
+                placeat, magni unde rem eveniet molestias.
+              </p>
+            </article>
+            <div class="division"></div>
+            <article>
+              <h2>Features</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                deleniti perferendis cum, magni accusantium deserunt possimus?
+                Eligendi quas aspernatur illum excepturi iste earum aliquid
+                placeat, magni unde rem eveniet molestias.
+                <a href="#">View this page with graphic logo</a>
+              </p>
+            </article>
+            <div class="division"></div>
+          </div>
+
+          <!-- contenido derecho extremo-->
+          <div class="col-2">
+            <section>
+              <div class="card-header">
+                <h4>Notes Area</h4>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates minus odio eveniet, sit molestiae veniam dolorum
+                  harum beatae eius, mollitia impedit ipsa ipsam repudiandae
+                  sint et accusantium <a href="#">Contact us...</a> quisquam a
+                  aspernatur?
+                </p>
+              </div>
+            </section>
+
+            <img src="./static/img/content_img2.png" alt="content_img2" />
+            <section>
+              <div class="card-header">
+                <h4>Notes Area</h4>
+              </div>
+              <div class="card-body">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates minus odio eveniet, sit molestiae veniam dolorum
+                  harum beatae eius, mollitia impedit ipsa ipsam repudiandae
+                  sint et accusantium quisquam a aspernatur?
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./static/js/script.js"></script>
+  </body>
+</html>

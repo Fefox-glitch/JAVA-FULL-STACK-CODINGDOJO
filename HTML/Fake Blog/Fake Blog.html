@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table {
+            width: 35%;
+            border-collapse: collapse;
+            border: 1px solid black;
+            text-align: center;
+        }
+        th{
+            background-color: gray;
+        }
+        td{
+            border-right-color: 1px solid black;
+        }
+        tr:hover{
+            background-color: coral;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Michael Jordan</h1>
+    <img src="michael.jpg" width="450px" height="250px">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non lorem tellus. Sed at felis felis. Class
+        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum viverra
+        tristique massa, ac suscipit massa pulvinar sed. Integer luctus tristique congue. Proin mollis velit vitae
+        tellus accumsan consequat. Suspendisse potenti. Aliquam porta consequat varius. Etiam nec nisi est. Sed
+        vestibulum risus vel justo ullamcorper, et condimentum elit tempus. Mauris eget lorem semper, ultricies ipsum
+        eu, sodales ante. Sed congue at ligula at ornare. Pellentesque porta sit amet diam a sollicitudin. Quisque
+        gravida, lectus et aliquam ultricies, dui quam laoreet.
+    </p>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>PPG</th>
+                    <th>MPV</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1990-91</td>
+                    <td>31.5</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1991-92</td>
+                    <td>30.1</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1992-93</td>
+                    <td>32.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1995-96</td>
+                    <td>30.4</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>1996-97</td>
+                    <td>29.6</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>1997-98</td>
+                    <td>28.7</td>
+                    <td>Sí</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <ul>
+        <li>1984 - 1983 Chicago Bulls</li>
+        <li>1995 - 1998 Chicago Bulls</li>
+        <li>2001 - 2003 Washington Wizards</li>
+    </ul>
+    <div>
+        <a href="https://www.youtube.com/watch?v=Hh2EAg-jmyI"> Haz clic acá por un increible video destacado </a>
+    </div> <br>
+    <form>
+        <h2>Por favor, contesta esta breve encuesta</h2>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div> <br>
+        <div>
+            <input type="radio" name="correo" value="si">
+            <label for="si">Sí, por favor envíame montones de correos</label><br>
+            <input type="radio" name="correo" value="no">
+            <label for="no">No por favor, no me mandes ningún correo</label><br>
+        </div><br>
+        <h3>¿Cómo supiste de nosotros?</h3>
+        <div>
+            <input type="checkbox" id="face" name="red" value="face">
+            <label for="face"> Facebook</label><br>
+            <input type="checkbox" id="perio" name="red" value="perio">
+            <label for="perio"> El periódico</label><br>
+            <input type="checkbox" id="contact" name="red" value="contact">
+            <label for="contact"> Un contacto</label><br>
+        </div><br>
+        <input type="button" class="submit" value="Enviar">
+    </form>
+</body>
+
+
+</html>
